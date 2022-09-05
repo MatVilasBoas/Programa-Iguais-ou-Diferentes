@@ -1,0 +1,17 @@
+static void Main(string[] args)
+        {
+            Double num1, num2, igual;
+            Console.WriteLine("insira o primeiro numero: ");
+            num1 = Double.Parse(Console.ReadLine());
+            Console.WriteLine("insira o segundo numero: ");
+            num2 = Double.Parse(Console.ReadLine());
+            
+            if (num1==num2)
+            {
+                Console.WriteLine("os numeros sao iguais");
+            }
+            else
+            {
+                Console.WriteLine("os numeros sao diferentes");
+            }
+        }
